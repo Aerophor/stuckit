@@ -1,4 +1,20 @@
 baseURL: https://github.com/Aerophor/stuckit.git
 locale: en-us
-title: My New Hugo Project
+title: Only in the Opinion of Power
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+      
